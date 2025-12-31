@@ -40,9 +40,6 @@ const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">
-              Sign In
-            </Button>
             <Button variant="hero" size="sm">
               Request Demo
             </Button>
@@ -72,9 +69,6 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="outline" size="sm">
-                  Sign In
-                </Button>
                 <Button variant="hero" size="sm">
                   Request Demo
                 </Button>
