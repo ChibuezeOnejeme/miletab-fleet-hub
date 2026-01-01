@@ -19,8 +19,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">M</span>
+            <div className="w-16 h-13 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+               <img
+              src="/miletab.svg"
+              alt="MileTab logo"
+              className="w-12 h-12"/>
             </div>
             <span className="text-xl font-bold text-foreground">MileTab</span>
           </a>
